@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + React + TS</title>
+    <style>
+      * {
+        margin: 0;
+        box-sizing: border-box;
+        font-family: "Space Grotesk", sans-serif;
+      }
+      @font-face {
+        /* Found out how to install fonts from:
+        https://stackoverflow.com/questions/107936/how-to-add-some-non-standard-font-to-a-website */
+        font-family: "Space Grotesk";
+        src: url(src/images-and-fonts/SpaceGrotesk-VariableFont_wght.ttf) format("truetype");
+      }
+      @font-face {
+        font-family: "Minecraft";
+        src: url(src/images-and-fonts/MinecraftTen-VGORe.ttf) format("truetype");
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
